@@ -1,0 +1,11 @@
+(module "" (layer F.Cu) (tedit 4D7C821B)
+  (attr virtual)
+  (fp_text reference P4 (at 2.54 -2.54) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.0889)))
+  )
+  (fp_text value "USB Operation Selection" (at 1.905 -4.445) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.0889)))
+  )
+  (fp_circle (center 0 0) (end -0.4445 0.4445) (layer F.SilkS) (width 0.381))
+  (pad 1 thru_hole circle (at 0 0) (size 5.99948 5.99948) (drill 5.00126) (layers *.Cu F.Paste F.SilkS F.Mask))
+)
