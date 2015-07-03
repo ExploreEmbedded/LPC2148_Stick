@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 6/30/2015 4:02:08 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 7/3/2015 3:57:25 PM
 
 BeginCmp
 TimeStamp = /55375502;
@@ -130,35 +130,35 @@ BeginCmp
 TimeStamp = /5537557B;
 Reference = D1;
 ValeurCmp = LED_Rst;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
 TimeStamp = /5537561E;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
 TimeStamp = /55375624;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
 TimeStamp = /5537562A;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
 TimeStamp = /55375630;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
@@ -172,14 +172,14 @@ BeginCmp
 TimeStamp = /553755A6;
 Reference = D7;
 ValeurCmp = LED_Rst;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
 TimeStamp = /55375609;
 Reference = D8;
 ValeurCmp = PWR;
-IdModule  = LEDs:LED-0603;
+IdModule  = EE:LED-0603_NEW;
 EndCmp
 
 BeginCmp
@@ -459,7 +459,7 @@ BeginCmp
 TimeStamp = /553755CB;
 Reference = SW2;
 ValeurCmp = Power;
-IdModule  = EE:Micro_slide_switch-spst_2mm;
+IdModule  = EE:Micro_slide_switch-spst_2mm_new;
 EndCmp
 
 BeginCmp
