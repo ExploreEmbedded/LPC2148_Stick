@@ -1197,10 +1197,6 @@ F 3 "" H 4340 6690 60  0000 C CNN
 	1    4340 6690
 	1    0    0    -1  
 $EndComp
-Text Label 2490 4560 2    59   ~ 0
-PO.22
-Text Label 1220 4460 0    39   ~ 0
-PO.22
 Text Label 2490 5460 2    39   ~ 0
 CONNECT
 Text Label 1220 2660 0    39   ~ 0
@@ -1881,12 +1877,6 @@ Wire Wire Line
 Wire Wire Line
 	1220 4360 2490 4360
 Wire Wire Line
-	1860 4460 2490 4460
-Wire Wire Line
-	1860 4460 1860 4560
-Wire Wire Line
-	1860 4560 1220 4560
-Wire Wire Line
 	1220 4660 2180 4660
 Wire Wire Line
 	2180 4660 2180 4860
@@ -1933,4 +1923,8 @@ Wire Wire Line
 	5250 950  5250 990 
 Wire Wire Line
 	2280 6620 2280 7120
+Wire Wire Line
+	2490 4460 1220 4460
+Wire Wire Line
+	2490 4560 1220 4560
 $EndSCHEMATC

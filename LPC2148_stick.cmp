@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 6/29/2015 2:41:23 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 6/30/2015 4:02:08 PM
 
 BeginCmp
 TimeStamp = /55375502;
@@ -64,13 +64,6 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5537532E;
-Reference = C9;
-ValeurCmp = 100nf;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /553752B4;
 Reference = C10;
 ValeurCmp = 22pf;
@@ -81,20 +74,6 @@ BeginCmp
 TimeStamp = /553752BA;
 Reference = C11;
 ValeurCmp = 22pf;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375346;
-Reference = C12;
-ValeurCmp = 100nf;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5537534C;
-Reference = C13;
-ValeurCmp = 100nf;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -186,7 +165,7 @@ BeginCmp
 TimeStamp = /553755F3;
 Reference = D6;
 ValeurCmp = 1n4148;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = EE:ZenerDiode_SMD;
 EndCmp
 
 BeginCmp

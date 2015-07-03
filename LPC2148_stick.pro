@@ -1,4 +1,4 @@
-update=6/3/2015 10:19:33 PM
+update=6/30/2015 7:21:03 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -116,3 +116,16 @@ LibName32=nxp_armmcu
 LibName33=nxp
 LibName34=nxp (1)
 LibName35=H:/DIL64
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

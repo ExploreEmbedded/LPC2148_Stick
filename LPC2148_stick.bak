@@ -1612,8 +1612,6 @@ Connection ~ 7450 1850
 Wire Wire Line
 	10400 2270 10600 2270
 Wire Wire Line
-	2280 6620 2280 7120
-Wire Wire Line
 	10490 6400 10690 6400
 Connection ~ 8200 1150
 Connection ~ 8400 1150
@@ -1933,4 +1931,6 @@ Wire Wire Line
 	4900 950  5600 950 
 Wire Wire Line
 	5250 950  5250 990 
+Wire Wire Line
+	2280 6620 2280 7120
 $EndSCHEMATC
