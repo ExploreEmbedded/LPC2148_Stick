@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "adc.o" "delay.o" "gpio.o" "main.o" "uart.o" "lcd.o" --strict --scatter "Adc_Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Adc_Test.map" -o "Adc_Test.axf"

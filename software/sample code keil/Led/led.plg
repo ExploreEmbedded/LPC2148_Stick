@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\code\LPC2148_Code\Led\led.uvproj
+Project File Date:  08/19/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+compiling gpio.c...
+compiling led_main.c...
+led_main.c(53): warning:  #951-D: return type of function "main" must be "int"
+linking...
+Program Size: Code=948 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+User command #1: fromelf --bin led.axf -o led.bin
+"led.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=948 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+User command #1: fromelf --bin led.axf -o led.bin
+"led.axf" - 0 Error(s), 0 Warning(s).
