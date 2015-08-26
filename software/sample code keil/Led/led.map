@@ -470,12 +470,12 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       140          0          0          0          0       2258   delay.o
-        80          8          0          0          0        343   led_main.o
-       304         60          0          0       1160        420   startup.o
+       140          0          0          0          0       2290   delay.o
+        80          8          0          0          0        379   led_main.o
+       304         60          0          0       1160        484   startup.o
 
     ----------------------------------------------------------------------
-       524         68         16          0       1160       3021   Object Totals
+       524         68         16          0       1160       3153   Object Totals
          0          0         16          0          0          0   (incl. Generated)
          0          0          0          0          0          3   (incl. Padding)
 
@@ -525,8 +525,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-       948         92         16          0       1256       3312   Grand Totals
-       948         92         16          0       1256       3312   ELF Image Totals
+       948         92         16          0       1256       3444   Grand Totals
+       948         92         16          0       1256       3444   ELF Image Totals
        948         92         16          0          0          0   ROM Totals
 
 ==============================================================================
