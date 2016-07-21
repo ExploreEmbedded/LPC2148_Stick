@@ -1,0 +1,18 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\adc.o"
+".\objects\delay.o"
+".\objects\eeprom.o"
+".\objects\gpio.o"
+".\objects\keypad.o"
+".\objects\lcd.o"
+".\objects\pwm.o"
+".\objects\rtc.o"
+".\objects\softi2c.o"
+".\objects\systeminit.o"
+".\objects\uart.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\ExploreLPC2148_Board_Test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ExploreLPC2148_Board_Test.map" -o .\Objects\ExploreLPC2148_Board_Test.axf

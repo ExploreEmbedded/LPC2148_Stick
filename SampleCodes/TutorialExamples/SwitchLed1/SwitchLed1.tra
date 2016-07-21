@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'SwitchLed1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "SwitchLed1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SwitchLed1.map" -o "SwitchLed1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'SwitchLed1.axf'
+### ADS-LD Command File: 'SwitchLed1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'SwitchLed1.lnp', Handle=0x000007D8
+### Writing '.lnp' file
+### ADS-LD Command file 'SwitchLed1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

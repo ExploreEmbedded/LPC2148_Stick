@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\main.o"
+".\objects\gpio.o"
+".\objects\uart.o"
+".\objects\systeminit.o"
+--strict --scatter ".\Objects\06a_UART_Tx_Char.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\06a_UART_Tx_Char.map" -o .\Objects\06a_UART_Tx_Char.axf

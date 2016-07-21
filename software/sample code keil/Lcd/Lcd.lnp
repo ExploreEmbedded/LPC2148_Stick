@@ -1,4 +1,0 @@
---cpu ARM7TDMI "startup.o" "delay.o" "gpio.o" "lcd.o" "main.o" --strict --scatter "Lcd.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\Lcd.map" -o "Lcd.axf"

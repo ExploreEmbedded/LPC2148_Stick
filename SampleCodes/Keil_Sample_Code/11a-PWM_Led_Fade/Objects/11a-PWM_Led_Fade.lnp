@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\gpio.o"
+".\objects\pwm.o"
+".\objects\systeminit.o"
+--strict --scatter ".\Objects\11a-PWM_Led_Fade.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\11a-PWM_Led_Fade.map" -o .\Objects\11a-PWM_Led_Fade.axf

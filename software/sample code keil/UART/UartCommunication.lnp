@@ -1,4 +1,0 @@
---cpu ARM7TDMI "startup.o" "gpio.o" "main.o" "uart.o" --strict --scatter "UartCommunication.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\UartCommunication.map" -o "UartCommunication.axf"

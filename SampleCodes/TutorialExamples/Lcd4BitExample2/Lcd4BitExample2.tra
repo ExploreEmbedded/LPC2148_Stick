@@ -1,0 +1,24 @@
+*** Creating Trace Output File 'Lcd4BitExample2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"systeminit.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "delay.o" "gpio.o" "lcd.o" "systeminit.o" "main.o" --strict --scatter "Lcd4BitExample2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lcd4BitExample2.map" -o "Lcd4BitExample2.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Lcd4BitExample2.axf'
+### ADS-LD Command File: 'Lcd4BitExample2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Lcd4BitExample2.lnp', Handle=0x0000077C
+### Writing '.lnp' file
+### ADS-LD Command file 'Lcd4BitExample2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

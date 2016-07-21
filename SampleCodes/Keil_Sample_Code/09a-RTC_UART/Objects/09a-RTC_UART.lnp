@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\main.o"
+".\objects\gpio.o"
+".\objects\rtc.o"
+".\objects\systeminit.o"
+".\objects\uart.o"
+--strict --scatter ".\Objects\09a-RTC_UART.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\09a-RTC_UART.map" -o .\Objects\09a-RTC_UART.axf

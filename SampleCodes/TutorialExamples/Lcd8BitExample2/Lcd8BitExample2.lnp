@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "gpio.o" "lcd.o" "systeminit.o" --strict --scatter "Lcd8BitExample2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lcd8BitExample2.map" -o "Lcd8BitExample2.axf"

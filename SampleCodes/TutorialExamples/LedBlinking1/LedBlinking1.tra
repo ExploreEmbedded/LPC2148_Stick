@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'LedBlinking1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "LedBlinking1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LedBlinking1.map" -o "LedBlinking1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LedBlinking1.axf'
+### ADS-LD Command File: 'LedBlinking1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LedBlinking1.lnp', Handle=0x00000668
+### Writing '.lnp' file
+### ADS-LD Command file 'LedBlinking1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

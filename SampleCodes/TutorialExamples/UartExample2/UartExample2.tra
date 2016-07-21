@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'UartExample2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"systeminit.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "gpio.o" "systeminit.o" "uart.o" --strict --scatter "UartExample2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UartExample2.map" -o "UartExample2.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UartExample2.axf'
+### ADS-LD Command File: 'UartExample2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UartExample2.lnp', Handle=0x00000E10
+### Writing '.lnp' file
+### ADS-LD Command file 'UartExample2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
