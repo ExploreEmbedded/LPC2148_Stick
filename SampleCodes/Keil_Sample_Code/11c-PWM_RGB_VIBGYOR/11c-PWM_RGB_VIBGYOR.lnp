@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "gpio.o" "pwm.o" "systeminit.o" "uart.o" --strict --scatter "11c-PWM_RGB_VIBGYOR.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\11c-PWM_RGB_VIBGYOR.map" -o "11c-PWM_RGB_VIBGYOR.axf"

@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\GitHub\LPC2148\LPC2148_Stick\SampleCodes\Keil_Sample_Code\06a_UART_Tx_Char\06a_UART_Tx_Char.uvproj
+Project File Date:  03/23/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+compiling gpio.c...
+compiling uart.c...
+compiling systemInit.c...
+linking...
+Program Size: Code=1952 RO-data=16 RW-data=0 ZI-data=1256  
+User command #1: fromelf --bin Objects\06a_UART_Tx_Char.axf --output 06a_UART_Tx_Char.bin
+".\Objects\06a_UART_Tx_Char.axf" - 0 Error(s), 0 Warning(s).

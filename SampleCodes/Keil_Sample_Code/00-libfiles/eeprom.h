@@ -72,8 +72,8 @@ PreCompile configuration to enable or disable the API's.
  1.Required interfaces can be enabled/disabled by configuring its respective macros to 1/0.
  2. By default all the API's are disabled. 
 ***************************************************************************************************/
-#define    ENABLE_EEPROM_WriteNBytes   0
-#define    ENABLE_EEPROM_ReadNBytes    0
+#define    ENABLE_EEPROM_WriteNBytes   1
+#define    ENABLE_EEPROM_ReadNBytes    1
 #define    ENABLE_EEPROM_WriteString   1
 #define    ENABLE_EEPROM_ReadString    1
 #define    ENABLE_EEPROM_Erase         1

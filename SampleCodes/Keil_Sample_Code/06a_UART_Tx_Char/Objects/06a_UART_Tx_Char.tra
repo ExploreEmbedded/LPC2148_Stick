@@ -1,0 +1,23 @@
+*** Creating Trace Output File '.\Objects\06a_UART_Tx_Char.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objects\startup.o"'
+### List of Objects: adding '".\objects\main.o"'
+### List of Objects: adding '".\objects\gpio.o"'
+### List of Objects: adding '".\objects\uart.o"'
+### List of Objects: adding '".\objects\systeminit.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\objects\startup.o" ".\objects\main.o" ".\objects\gpio.o" ".\objects\uart.o" ".\objects\systeminit.o" --strict --scatter ".\Objects\06a_UART_Tx_Char.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\06a_UART_Tx_Char.map" -o ".\Objects\06a_UART_Tx_Char.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Objects\06a_UART_Tx_Char.axf'
+### ADS-LD Command File: '.\Objects\06a_UART_Tx_Char.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Objects\06a_UART_Tx_Char.lnp', Handle=0x0000099C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Objects\06a_UART_Tx_Char.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -7,33 +7,27 @@
  * Website: http://www.exploreembedded.com/wiki
  * Description: This files contains the program to read the key pressed on 4x4 hex keypad and display it on LCD.
 
-The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the 
-library works on any of development boards for respective controllers. However, ExploreEmbedded 
-disclaims any kind of hardware failure resulting out of usage of libraries, directly or indirectly.
-Files may be subject to change without prior notice. The revision history contains the information 
-related to updates. 
+This code has been developed and tested on ExploreEmbedded boards.  
+We strongly believe that the library works on any of development boards for respective controllers. 
+Check this link http://www.exploreembedded.com/wiki for awesome tutorials on 8051,PIC,AVR,ARM,Robotics,RTOS,IOT.
+ExploreEmbedded invests substantial time and effort developing open source HW and SW tools, to support consider 
+buying the ExploreEmbedded boards.
+ 
+The ExploreEmbedded libraries and examples are licensed under the terms of the new-bsd license(two-clause bsd license).
+See also: http://www.opensource.org/licenses/bsd-license.php
 
+EXPLOREEMBEDDED DISCLAIMS ANY KIND OF HARDWARE FAILURE RESULTING OUT OF USAGE OF LIBRARIES, DIRECTLY OR
+INDIRECTLY. FILES MAY BE SUBJECT TO CHANGE WITHOUT PRIOR NOTICE. THE REVISION HISTORY CONTAINS THE INFORMATION 
+RELATED TO UPDATES.
+ 
 
-GNU GENERAL PUBLIC LICENSE: 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Errors and omissions should be reported to codelibraries@exploreembedded.com
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose
+and without fee is hereby granted, provided that this copyright notices appear in all copies 
+and that both those copyright notices and this permission notice appear in supporting documentation.
 **************************************************************************************************/
-#include "LPC17xx.h"
+#include "systemInit.h"
 #include "keypad.h"
-#include "lcd.h"
-
+#include "lcd.h" 
 
 
 int main() 
@@ -41,21 +35,18 @@ int main()
     uint8_t key;
     SystemInit();
 
-    /*Connect RS, RW, EN and data bus to PORT0.4 to PORT0.7*/
-    LCD_SetUp(P2_0,P2_1,P2_2,P_NC,P_NC,P_NC,P_NC,P1_24,P1_25,P1_26,P1_27);
+    /*Connect RS->P1_16, RW->P1_17, EN->P1_18 and data bus(D4:D7 - P1_20:P1_23)*/
+    LCD_SetUp(P1_16,P1_17,P1_18,P_NC,P_NC,P_NC,P_NC,P1_20,P1_21,P1_22,P1_23);
     LCD_Init(2,16);
     
-    KEYPAD_Init(P0_0,P0_1,P0_2,P0_3,P0_4,P0_5,P0_6,P0_7);
+    KEYPAD_Init(P0_19,P0_20,P0_21,P0_22,P0_25,P0_28,P0_29,P0_30);
     
     LCD_Printf("Key Pressed:");
     while (1) 
     {
         key = KEYPAD_GetKey();
         LCD_GoToLine(1);
-        LCD_DisplayChar(key);
-        
-    }
-
-    
+        LCD_DisplayChar(key);         
+    }      
 }
 

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay.o" "gpio.o" "lcd.o" "rtc.o" "systeminit.o" "main.o" --strict --scatter "RTC_Example1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTC_Example1.map" -o "RTC_Example1.axf"

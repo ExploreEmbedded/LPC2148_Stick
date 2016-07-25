@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "eeprom.o" "gpio.o" "softi2c.o" "systeminit.o" "uart.o" --strict --scatter "08b-Eeprom_String_RdWr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\08b-Eeprom_String_RdWr.map" -o "08b-Eeprom_String_RdWr.axf"

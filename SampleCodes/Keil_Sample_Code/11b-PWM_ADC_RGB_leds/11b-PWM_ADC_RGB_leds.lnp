@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "adc.o" "delay.o" "gpio.o" "pwm.o" "systeminit.o" --strict --scatter "11b-PWM_ADC_RGB_leds.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\11b-PWM_ADC_RGB_leds.map" -o "11b-PWM_ADC_RGB_leds.axf"

@@ -1,0 +1,24 @@
+*** Creating Trace Output File '.\Objects\09a-RTC_UART.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objects\startup.o"'
+### List of Objects: adding '".\objects\main.o"'
+### List of Objects: adding '".\objects\gpio.o"'
+### List of Objects: adding '".\objects\rtc.o"'
+### List of Objects: adding '".\objects\systeminit.o"'
+### List of Objects: adding '".\objects\uart.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\objects\startup.o" ".\objects\main.o" ".\objects\gpio.o" ".\objects\rtc.o" ".\objects\systeminit.o" ".\objects\uart.o" --strict --scatter ".\Objects\09a-RTC_UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\09a-RTC_UART.map" -o ".\Objects\09a-RTC_UART.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Objects\09a-RTC_UART.axf'
+### ADS-LD Command File: '.\Objects\09a-RTC_UART.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Objects\09a-RTC_UART.lnp', Handle=0x00000C80
+### Writing '.lnp' file
+### ADS-LD Command file '.\Objects\09a-RTC_UART.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

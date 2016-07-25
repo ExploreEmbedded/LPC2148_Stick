@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "gpio.o" "pwm.o" "systeminit.o" --strict --scatter "PWM_Example2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\PWM_Example2.map" -o "PWM_Example2.axf"

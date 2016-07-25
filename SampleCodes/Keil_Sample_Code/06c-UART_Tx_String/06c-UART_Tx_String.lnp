@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "gpio.o" "systeminit.o" "uart.o" --strict --scatter "06c-UART_Tx_String.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\06c-UART_Tx_String.map" -o "06c-UART_Tx_String.axf"

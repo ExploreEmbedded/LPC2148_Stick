@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "adc.o" "delay.o" "gpio.o" "lcd.o" "systeminit.o" --strict --scatter "07d-ADC_LCD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07d-ADC_LCD.map" -o "07d-ADC_LCD.axf"

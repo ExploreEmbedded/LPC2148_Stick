@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" "adc.o" "delay.o" "systeminit.o" "uart.o" "gpio.o" --strict --scatter "07c-ADC_LM35_TempSensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07c-ADC_LM35_TempSensor.map" -o "07c-ADC_LM35_TempSensor.axf"

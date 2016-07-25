@@ -1,0 +1,3 @@
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "gpio.o" "lcd.o" "systeminit.o" "uart.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\06b-UART_Rx_Tx_Lcd.map" -o "06b-UART_Rx_Tx_Lcd.axf"

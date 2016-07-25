@@ -1,0 +1,26 @@
+*** Creating Trace Output File '08b-Eeprom_String_RdWr.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"eeprom.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"softi2c.o"'
+### List of Objects: adding '"systeminit.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "delay.o" "eeprom.o" "gpio.o" "softi2c.o" "systeminit.o" "uart.o" --strict --scatter "08b-Eeprom_String_RdWr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\08b-Eeprom_String_RdWr.map" -o "08b-Eeprom_String_RdWr.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '08b-Eeprom_String_RdWr.axf'
+### ADS-LD Command File: '08b-Eeprom_String_RdWr.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '08b-Eeprom_String_RdWr.lnp', Handle=0x000007FC
+### Writing '.lnp' file
+### ADS-LD Command file '08b-Eeprom_String_RdWr.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
