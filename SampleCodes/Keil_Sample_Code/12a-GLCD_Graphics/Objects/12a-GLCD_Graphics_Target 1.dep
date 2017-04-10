@@ -1,6 +1,6 @@
 Dependencies for Project '12a-GLCD_Graphics', Target 'Target 1': (DO NOT MODIFY !)
 F (.\Startup.s)(0x4CCA6EB2)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
-F (.\main.c)(0x58EB002C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x58EB16B8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\00-libfiles\glcd.h)(0x58EB0312)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB4EA6)
 I (..\00-libfiles\stdutils.h)(0x578F6339)

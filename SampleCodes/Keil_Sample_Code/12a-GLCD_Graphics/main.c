@@ -45,7 +45,7 @@ int main()
 
     /* Setup/Map the controller pins for GLCD operation
                 RS    RW    EN   CS1   CS2   D0    D1    D2    D3    D4    D5     D6     D7*/
-    GLCD_SetUp(P0_0, P0_1, P0_2, P0_3, P0_4, P0_5, P0_6, P0_7, P0_8, P0_9, P0_10, P0_12, P0_13);
+    GLCD_SetUp(P1_16, P1_17, P1_18, P1_19, P1_20, P1_21, P1_22, P1_23, P1_24, P1_25, P1_26, P1_27, P1_28);
 
     /* Initialize the GLCD before use*/
 
